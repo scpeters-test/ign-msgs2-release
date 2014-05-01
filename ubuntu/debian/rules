@@ -8,14 +8,14 @@
 # Multiarch (if supported). Required for precise
 DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH 2>/dev/null)
 
+# Configuration flags.
+CONFIGURE_ARGS=
+ 
 # If multiarch is supported, override CMAKE_INSTALL_LIB
 ifneq ($(DEB_HOST_MULTIARCH),)
 CONFIGURE_ARGS+=-DCMAKE_INSTALL_LIBDIR:STRING="lib/${DEB_HOST_MULTIARCH}"
 endif
-    
-# Configuration flags.
-CONFIGURE_ARGS=
- 
+
 .PHONY: override_dh_auto_configure \
         override_dh_strip 
 
