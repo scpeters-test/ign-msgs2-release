@@ -1,0 +1,46 @@
+Source: robot-msgs
+Standards-Version: 3.9.5
+Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
+Section: science
+Priority: extra
+Build-Depends: cmake,
+               debhelper (>= 7.0.50~),
+               libprotoc-dev,
+               libprotobuf-dev (>= 2.3.0),
+               protobuf-compiler,
+               libboost-dev
+Vcs-Browser: https://bitbucket.org/osrf/sdformat-release
+Vcs-Hg: https://bitbucket.org/osrf/sdformat-release
+Homepage: http://sdformat.org
+
+Package: librobot-msgs
+Architecture: any
+Section: libs
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Multi-Arch: same
+Description: Protobuf messages for robotics applications - Shared library
+ This library provides a set of google protobuf messages that are typically used
+ in robot applications. 
+
+Package: librobot-msgs-dev
+Architecture: any
+Section: libdevel
+Depends: libboost-dev,
+         libprotobuf-dev (>= 2.3.0),
+Multi-Arch: same
+Description: Protobuf messages for robotics applications - Development files
+ This library provides a set of google protobuf messages that are typically used
+ in robot applications. 
+
+Package: librobot-msgs-dev-dbg
+Architecture: any
+Section: debug
+Priority: extra
+Depends:
+     librobot-msgs (= ${binary:Version}),
+     ${misc:Depends}
+Multi-Arch: same
+Description: Protobuf messages for robotics applications - Debugging symbols
+ This library provides a set of google protobuf messages that are typically used
+ in robot applications. 
