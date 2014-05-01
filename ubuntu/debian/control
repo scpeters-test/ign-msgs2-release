@@ -33,7 +33,7 @@ Description: Protobuf messages for robotics applications - Development files
  This library provides a set of google protobuf messages that are typically used
  in robot applications. 
 
-Package: librobot-msgs-dev-dbg
+Package: librobot-msgs-dbg
 Architecture: any
 Section: debug
 Priority: extra
