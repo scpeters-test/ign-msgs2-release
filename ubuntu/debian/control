@@ -8,7 +8,8 @@ Build-Depends: cmake,
                libprotoc-dev,
                libprotobuf-dev (>= 2.3.0),
                protobuf-compiler,
-               libboost-dev
+               libboost-dev,
+               pkg-config
 Vcs-Browser: https://bitbucket.org/osrf/robot-msgs-release
 Vcs-Hg: https://bitbucket.org/osrf/robot-msgs-release
 Homepage: http://robot-msgs.org
