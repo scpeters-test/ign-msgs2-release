@@ -29,6 +29,7 @@ Architecture: any
 Section: libdevel
 Depends: libboost-dev,
          libprotobuf-dev (>= 2.3.0),
+         librobot-msgs (= ${binary:Version})
 Multi-Arch: same
 Description: Protobuf messages for robotics applications - Development files
  This library provides a set of google protobuf messages that are typically used
