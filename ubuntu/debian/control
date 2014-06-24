@@ -4,12 +4,11 @@ Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
 Priority: extra
 Build-Depends: cmake,
+               pkg-config
                debhelper (>= 7.0.50~),
                libprotoc-dev,
                libprotobuf-dev (>= 2.3.0),
                protobuf-compiler,
-               libboost-dev,
-               pkg-config
 Vcs-Browser: https://bitbucket.org/osrf/robot-msgs-release
 Vcs-Hg: https://bitbucket.org/osrf/robot-msgs-release
 Homepage: http://robot-msgs.org
@@ -27,8 +26,7 @@ Description: Protobuf messages for robotics applications - Shared library
 Package: librobot-msgs-dev
 Architecture: any
 Section: libdevel
-Depends: libboost-dev,
-         libprotobuf-dev (>= 2.3.0),
+Depends: libprotobuf-dev (>= 2.3.0),
          librobot-msgs (= ${binary:Version})
 Multi-Arch: same
 Description: Protobuf messages for robotics applications - Development files
