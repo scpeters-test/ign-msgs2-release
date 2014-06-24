@@ -4,7 +4,7 @@ Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
 Priority: extra
 Build-Depends: cmake,
-               pkg-config
+               pkg-config,
                debhelper (>= 7.0.50~),
                libprotoc-dev,
                libprotobuf-dev (>= 2.3.0),
