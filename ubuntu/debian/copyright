@@ -1,7 +1,7 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: robot_msgs
+Upstream-Name: ignition_msgs
 Upstream-Contact: gazebo-list@gazebosim.org
-Source: https://bitbucket.org/osrf/robot_msgs
+Source: https://bitbucket.org/osrf/ignition_msgs
 
 Files: *
 Copyright: 2013 Open Source Robotics Foundation

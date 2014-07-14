@@ -1,46 +1,46 @@
-Source: robot-msgs
+Source: ignition-msgs
 Standards-Version: 3.9.5
 Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
-Priority: extra
+Priority: optional
 Build-Depends: cmake,
                pkg-config,
                debhelper (>= 7.0.50~),
                libprotoc-dev,
                libprotobuf-dev (>= 2.3.0),
                protobuf-compiler,
-Vcs-Browser: https://bitbucket.org/osrf/robot-msgs-release
-Vcs-Hg: https://bitbucket.org/osrf/robot-msgs-release
-Homepage: http://robot-msgs.org
+Vcs-Browser: https://bitbucket.org/ignitionrobotics/ign_msgs-release
+Vcs-Hg: https://bitbucket.org/ignitionrobotics/ign_msgs-release
+Homepage: http://ignitionrobotics.org/
 
-Package: librobot-msgs
+Package: libignition-msgs
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: Protobuf messages for robotics applications - Shared library
+Description: Protobuf messages for ignitionics applications - Shared library
  This library provides a set of google protobuf messages that are typically used
- in robot applications. 
+ in ignition applications. 
 
-Package: librobot-msgs-dev
+Package: libignition-msgs-dev
 Architecture: any
 Section: libdevel
 Depends: libprotobuf-dev (>= 2.3.0),
-         librobot-msgs (= ${binary:Version})
+         libignition-msgs (= ${binary:Version})
 Multi-Arch: same
-Description: Protobuf messages for robotics applications - Development files
+Description: Protobuf messages for ignitionics applications - Development files
  This library provides a set of google protobuf messages that are typically used
- in robot applications. 
+ in ignition applications. 
 
-Package: librobot-msgs-dbg
+Package: libignition-msgs-dbg
 Architecture: any
 Section: debug
 Priority: extra
 Depends:
-     librobot-msgs (= ${binary:Version}),
+     libignition-msgs (= ${binary:Version}),
      ${misc:Depends}
 Multi-Arch: same
-Description: Protobuf messages for robotics applications - Debugging symbols
+Description: Protobuf messages for ignitionics applications - Debugging symbols
  This library provides a set of google protobuf messages that are typically used
- in robot applications. 
+ in ignition applications. 
