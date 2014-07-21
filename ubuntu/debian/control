@@ -13,7 +13,7 @@ Vcs-Browser: https://bitbucket.org/ignitionrobotics/ign_msgs-release
 Vcs-Hg: https://bitbucket.org/ignitionrobotics/ign_msgs-release
 Homepage: http://ignitionrobotics.org/
 
-Package: libignition-msgs
+Package: libignition0-msgs
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
@@ -27,18 +27,18 @@ Package: libignition-msgs-dev
 Architecture: any
 Section: libdevel
 Depends: libprotobuf-dev (>= 2.3.0),
-         libignition-msgs (= ${binary:Version})
+         libignition-msgs0 (= ${binary:Version})
 Multi-Arch: same
 Description: Protobuf messages for ignitionics applications - Development files
  This library provides a set of google protobuf messages that are typically used
  in ignition applications. 
 
-Package: libignition-msgs-dbg
+Package: libignition-msgs0-dbg
 Architecture: any
 Section: debug
 Priority: extra
 Depends:
-     libignition-msgs (= ${binary:Version}),
+     libignition-msgs0 (= ${binary:Version}),
      ${misc:Depends}
 Multi-Arch: same
 Description: Protobuf messages for ignitionics applications - Debugging symbols
