@@ -1,3 +1,9 @@
+ignition-msgs (0.2.0-1~precise) precise; urgency=medium
+
+  * ignition-msgs 0.2.0-1 release
+
+ -- Nate Koenig <nate@osrfoundation.org>  Tue, 03 May 2016 14:04:54 -0700
+
 ignition-msgs (0.1.0-2~precise) precise; urgency=low
 
   * ignition-msgs 0.1.0-2 release
