@@ -1,5 +1,5 @@
-ignition-msgs (0.1.0-2~xenial) xenial; urgency=low
+ignition-msgs (0.2.0-1~trusty) trusty; urgency=medium
 
-  * ignition-msgs 0.1.0-2 release
+  * ignition-msgs 0.2.0-1 release
 
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 12 Aug 2014 18:18:53 +0200
+ -- Nate Koenig <nate@osrfoundation.org>  Tue, 03 May 2016 14:04:53 -0700
