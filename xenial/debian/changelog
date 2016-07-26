@@ -1,3 +1,9 @@
+ignition-msgs (0.4.0-1~xenial) xenial; urgency=medium
+
+  * ignition-msgs 0.4.0-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 26 Jul 2016 02:19:11 +0200
+
 ignition-msgs (0.3.1-2~xenial) xenial; urgency=medium
 
   * ignition-msgs 0.3.1-2 release
