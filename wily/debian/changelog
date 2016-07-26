@@ -1,11 +1,5 @@
-ignition-msgs (0.4.0-1~wily) wily; urgency=medium
+ignition-msgs (3.1.1-1~wily) wily; urgency=medium
 
-  * ignition-msgs 0.4.0-1 release
-
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 26 Jul 2016 02:22:02 +0200
-
-ignition-msgs (0.3.0-1~wily) wily; urgency=medium
-
-  * ignition-msgs 0.3.0-1 release
+  * ignition-msgs 3.1.1-1 release
 
  -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 22 Jun 2016 17:41:14 +0200
