@@ -1,3 +1,9 @@
+ignition-msgs (0.5.0-1~trusty) wily; urgency=medium
+
+  * ignition-msgs 0.5.0-1 release
+
+ -- Nate Koenig <nate@osrfoundation.org>  Fri, 12 Aug 2016 10:22:28 -0700
+
 ignition-msgs (3.1.1is0.4.0-1~wily) wily; urgency=medium
 
   * Bad release number in first release. Please use 3.1.1isX.Y.Z for releasing
