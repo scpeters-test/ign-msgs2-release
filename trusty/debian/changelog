@@ -1,3 +1,9 @@
+ignition-msgs (0.6.0-1~trusty) trusty; urgency=medium
+
+  * ignition-msgs 0.6.0-1 release
+
+ -- Nate Koenig <nate@osrfoundation.org>  Tue, 1 Nov 2016 15:32:03 -0700
+
 ignition-msgs (0.5.0-1~trusty) trusty; urgency=medium
 
   * ignition-msgs 0.5.0-1 release
