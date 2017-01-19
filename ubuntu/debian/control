@@ -8,7 +8,7 @@ Build-Depends: cmake,
                debhelper (>= 7.0.50~),
                libprotoc-dev,
                libprotobuf-dev (>= 2.3.0),
-               libignition-math2-dev,
+               libignition-math3-dev,
                protobuf-compiler,
 Vcs-Browser: https://bitbucket.org/ignitionrobotics/ign_msgs-release
 Vcs-Hg: https://bitbucket.org/ignitionrobotics/ign_msgs-release
@@ -28,7 +28,7 @@ Package: libignition-msgs-dev
 Architecture: any
 Section: libdevel
 Depends: libprotobuf-dev (>= 2.3.0),
-         libignition-math2-dev,
+         libignition-math3-dev,
          libignition-msgs0 (= ${binary:Version})
 Multi-Arch: same
 Description: Protobuf messages for ignitionics applications - Development files
