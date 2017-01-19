@@ -1,3 +1,9 @@
+ignition-msgs (0.7.0-1~yakkety) yakkety; urgency=medium
+
+  * ignition-msgs 0.7.0-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Thu, 19 Jan 2017 14:45:04 +0100
+
 ignition-msgs (0.6.1-1~yakkety) yakkety; urgency=medium
 
   * ignition-msgs 0.6.1-1 release
