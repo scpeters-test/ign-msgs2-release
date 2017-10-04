@@ -1,6 +1,6 @@
-ignition-msgs (1.0.0-1~zesty) zesty; urgency=medium
+ignition-msgs1 (1.0.0-1~zesty) zesty; urgency=medium
 
-  * ignition-msgs 1.0.0-1 release
+  * ignition-msgs1 1.0.0-1 release
 
  -- Nate Koenig <nate@osrfoundation.org>  Wed, 4 Oct 2017 07:40:24 -0700
 
