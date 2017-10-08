@@ -28,4 +28,4 @@ override_dh_auto_configure:
             $(CONFIGURE_ARGS)
 
 override_dh_strip:
-	dh_strip -a --dbg-package=libignition-msgs0-dbg
+	dh_strip -a --dbg-package=libignition-msgs-dbg
