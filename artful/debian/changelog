@@ -1,3 +1,9 @@
+ignition-msgs (1.0.0~pre3-1~artful) artful; urgency=medium
+
+  * ignition-msgs 1.0.0~pre3-1 release
+
+ -- Steve Peters <scpeters@osrfoundation.org>  Wed, 29 Nov 2017 15:57:23 -0800
+
 ignition-msgs (1.0.0~pre2-2~artful) artful; urgency=medium
 
   * ignition-msgs 1.0.0~pre2-2 release
