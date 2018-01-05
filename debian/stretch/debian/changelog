@@ -1,3 +1,9 @@
+ignition-msgs (1.0.0-1~stretch) stretch; urgency=medium
+
+  * ignition-msgs 1.0.0-1 release
+
+ -- Nate Koenig <nate@osrfoundation.org>  Fri, 05 Jan 2018 07:59:33 -0700
+
 ignition-msgs (1.0.0~pre6-1~stretch) stretch; urgency=medium
 
   * ignition-msgs 1.0.0~pre6-1 release
