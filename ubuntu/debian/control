@@ -29,6 +29,8 @@ Package: libignition-msgs-dev
 Architecture: any
 Section: libdevel
 Depends: libprotobuf-dev (>= 2.3.0),
+         libprotoc-dev,
+         protobuf-compiler,
          libignition-cmake-dev,
          libignition-math4-dev,
          libignition-msgs (= ${binary:Version})
