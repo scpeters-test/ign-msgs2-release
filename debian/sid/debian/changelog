@@ -1,5 +1,5 @@
-ignition-msgs (1.0.0+dfsg1-2~sid) sid; urgency=medium
+ignition-msgs2 (2.0.0~pre1-1~sid) sid; urgency=medium
 
-  * ignition-msgs 1.0.0-2 release
+  * ignition-msgs 2.0.0~pre1-1 release
 
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Thu, 18 Jan 2018 00:57:29 +0100
+ -- Steve Peters <scpeters@osrfoundation.org>  Mon, 30 Apr 2018 13:22:08 -0700
