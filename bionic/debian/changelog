@@ -1,0 +1,5 @@
+ignition-msgs2 (2.0.0~pre1-1~bionic) bionic; urgency=medium
+
+  * ignition-msgs 2.0.0~pre1-1 release
+
+ -- Steve Peters <scpeters@osrfoundation.org>  Mon, 30 Apr 2018 13:22:08 -0700
