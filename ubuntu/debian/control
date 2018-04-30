@@ -1,4 +1,4 @@
-Source: ignition-msgs
+Source: ignition-msgs2
 Standards-Version: 3.9.5
 Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
@@ -11,11 +11,11 @@ Build-Depends: cmake,
                libignition-cmake-dev,
                libignition-math4-dev,
                protobuf-compiler,
-Vcs-Browser: https://bitbucket.org/ignitionrobotics/ign_msgs-release
-Vcs-Hg: https://bitbucket.org/ignitionrobotics/ign_msgs-release
+Vcs-Browser: https://bitbucket.org/ignitionrobotics/ign_msgs2-release
+Vcs-Hg: https://bitbucket.org/ignitionrobotics/ign_msgs2-release
 Homepage: http://ignitionrobotics.org/
 
-Package: libignition-msgs
+Package: libignition-msgs2
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
@@ -25,7 +25,7 @@ Description: Protobuf messages for ignitionics applications - Shared library
  This library provides a set of google protobuf messages that are typically used
  in ignition applications. 
 
-Package: libignition-msgs-dev
+Package: libignition-msgs2-dev
 Architecture: any
 Section: libdevel
 Depends: libprotobuf-dev (>= 2.3.0),
@@ -33,18 +33,18 @@ Depends: libprotobuf-dev (>= 2.3.0),
          protobuf-compiler,
          libignition-cmake-dev,
          libignition-math4-dev,
-         libignition-msgs (= ${binary:Version})
+         libignition-msgs2 (= ${binary:Version})
 Multi-Arch: same
 Description: Protobuf messages for ignitionics applications - Development files
  This library provides a set of google protobuf messages that are typically used
  in ignition applications. 
 
-Package: libignition-msgs-dbg
+Package: libignition-msgs2-dbg
 Architecture: any
 Section: debug
 Priority: extra
 Depends:
-     libignition-msgs (= ${binary:Version}),
+     libignition-msgs2 (= ${binary:Version}),
      ${misc:Depends}
 Multi-Arch: same
 Description: Protobuf messages for ignitionics applications - Debugging symbols
