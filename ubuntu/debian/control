@@ -6,6 +6,7 @@ Priority: optional
 Build-Depends: cmake,
                pkg-config,
                debhelper (>= 7.0.50~),
+               doxygen,
                libprotoc-dev,
                libprotobuf-dev (>= 2.3.0),
                libignition-cmake1-dev,
