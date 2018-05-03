@@ -1,3 +1,9 @@
+ignition-msgs2 (2.0.0~pre1-2~artful) artful; urgency=medium
+
+  * ignition-msgs2 2.0.0~pre1-2 release
+
+ -- Steve Peters <scpeters@osrfoundation.org>  Thu, 03 May 2018 14:58:16 -0700
+
 ignition-msgs2 (2.0.0~pre1-1~artful) artful; urgency=medium
 
   * ignition-msgs 2.0.0~pre1-1 release
