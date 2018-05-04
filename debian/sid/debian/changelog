@@ -1,3 +1,9 @@
+ignition-msgs2 (2.0.0~pre2-1~sid) sid; urgency=medium
+
+  * ignition-msgs2 2.0.0~pre2-1 release
+
+ -- Steve Peters <scpeters@osrfoundation.org>  Fri, 04 May 2018 11:56:50 -0700
+
 ignition-msgs2 (2.0.0~pre1-2~sid) sid; urgency=medium
 
   * ignition-msgs2 2.0.0~pre1-2 release
