@@ -10,7 +10,7 @@ Build-Depends: cmake,
                libprotoc-dev,
                libprotobuf-dev (>= 2.3.0),
                libignition-cmake1-dev,
-               libignition-math5-dev,
+               libignition-math6-dev,
                libignition-tools-dev,
                protobuf-compiler,
 Vcs-Browser: https://bitbucket.org/ignitionrobotics/ign_msgs2-release
@@ -34,7 +34,7 @@ Depends: libprotobuf-dev (>= 2.3.0),
          libprotoc-dev,
          protobuf-compiler,
          libignition-cmake1-dev,
-         libignition-math5-dev,
+         libignition-math6-dev,
          libignition-msgs2 (= ${binary:Version})
 Multi-Arch: same
 Description: Protobuf messages for ignitionics applications - Development files
