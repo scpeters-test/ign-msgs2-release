@@ -3,4 +3,4 @@ usr/lib/*/*.so
 usr/lib/*/pkgconfig/*.pc
 usr/lib/*/cmake/ignition-msgs*/*
 usr/share/ignition/*
-usr/lib/ruby/ignition/cmdgazebo[0-99].rb
+usr/lib/ruby/ignition/cmdmsgs[0-99].rb
