@@ -1,3 +1,9 @@
+ignition-msgs2 (2.1.0-1~sid) sid; urgency=medium
+
+  * ignition-msgs2 2.1.0-1 release
+
+ -- Nate Koenig <nate@openrobotics.org>  Mon, 15 Jul 2019 13:50:12 -0700
+
 ignition-msgs2 (2.1.0~pre1-2~sid) sid; urgency=medium
 
   * ignition-msgs2 2.1.0~pre1-2 release
